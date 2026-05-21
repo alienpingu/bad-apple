@@ -26,7 +26,7 @@
     "type": "git",
     "url": "git+https://github.com/samuelebertocco/bad-apple-console.git"
   },
-  "author": "samuelebertocco",
+  "author": "alienpingu",
   "license": "MIT",
   "dependencies": {
     "jimp": "^1.6.0"
