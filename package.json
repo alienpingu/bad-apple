@@ -1,0 +1,34 @@
+{
+  "name": "bad-apple-console",
+  "version": "1.0.0",
+  "description": "Play the Bad Apple! music video inside Chrome DevTools at 30fps with zero runtime overhead.",
+  "main": "index.js",
+  "type": "module",
+  "files": [
+    "index.js",
+    "frames.js",
+    "index.html",
+    "build.js"
+  ],
+  "scripts": {
+    "build": "node build.js"
+  },
+  "keywords": [
+    "bad-apple",
+    "devtools",
+    "console",
+    "ascii-art",
+    "video",
+    "chrome",
+    "easter-egg"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samuelebertocco/bad-apple-console.git"
+  },
+  "author": "samuelebertocco",
+  "license": "MIT",
+  "dependencies": {
+    "jimp": "^1.6.0"
+  }
+}

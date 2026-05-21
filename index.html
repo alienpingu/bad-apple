@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bad Apple! - Console Player</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      background: #0a0a0a;
+      color: #e0e0e0;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      text-align: center;
+      overflow: hidden;
+    }
+    .container {
+      max-width: 480px;
+      padding: 2rem;
+    }
+    h1 {
+      font-size: 2.5rem;
+      font-weight: 800;
+      margin-bottom: 0.5rem;
+      background: linear-gradient(135deg, #fff 0%, #888 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    .subtitle {
+      font-size: 1rem;
+      color: #666;
+      margin-bottom: 2rem;
+    }
+    .card {
+      background: #141414;
+      border: 1px solid #222;
+      border-radius: 12px;
+      padding: 1.5rem;
+      margin-bottom: 1.5rem;
+    }
+    .card p {
+      color: #999;
+      line-height: 1.6;
+      margin-bottom: 0.75rem;
+    }
+    .card p:last-child { margin-bottom: 0; }
+    kbd {
+      background: #222;
+      border: 1px solid #333;
+      border-radius: 4px;
+      padding: 2px 8px;
+      font-family: 'SF Mono', Monaco, monospace;
+      font-size: 0.85rem;
+      color: #ccc;
+    }
+    .shortcut {
+      display: flex;
+      gap: 0.5rem;
+      justify-content: center;
+      align-items: center;
+      margin-top: 1rem;
+      font-family: 'SF Mono', Monaco, monospace;
+      font-size: 0.85rem;
+      color: #555;
+    }
+    .status {
+      margin-top: 1.5rem;
+      font-size: 0.85rem;
+      color: #444;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Bad Apple!</h1>
+    <p class="subtitle">Console Video Player</p>
+    
+    <div class="card">
+      <p>Open Chrome DevTools to start playback automatically.</p>
+      <p>Or press <kbd>Space</kbd> to start manually.</p>
+    </div>
+    
+    <div class="shortcut">
+      <kbd>F12</kbd> or <kbd>Cmd</kbd>+<kbd>Opt</kbd>+<kbd>J</kbd>
+    </div>
+    
+    <p class="status" id="status">Waiting for DevTools...</p>
+  </div>
+  
+  <script type="module" src="index.js"></script>
+</body>
+</html>

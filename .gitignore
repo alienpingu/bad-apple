@@ -1,0 +1,5 @@
+node_modules/
+.DS_Store
+output_*.png
+badapple.mp4
+package-lock.json
