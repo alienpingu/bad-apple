@@ -1,6 +1,6 @@
 {
   "name": "bad-apple-console",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Play the Bad Apple! music video inside Chrome DevTools at 30fps with zero runtime overhead.",
   "main": "index.js",
   "type": "module",
@@ -24,7 +24,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/samuelebertocco/bad-apple-console.git"
+    "url": "git+https://github.com/alienpingu/bad-apple-console.git"
   },
   "author": "alienpingu",
   "license": "MIT",
