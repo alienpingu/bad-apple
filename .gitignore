@@ -3,3 +3,5 @@ node_modules/
 output_*.png
 badapple.mp4
 package-lock.json
+dist/
+data/
