@@ -1,27 +1,19 @@
 {
   "name": "bad-apple-console",
-  "version": "2.0.0",
+  "version": "1.0.2",
   "description": "Play the Bad Apple! music video inside Chrome DevTools at 30fps with zero runtime overhead.",
   "type": "module",
-  "main": "./dist/index.cjs",
-  "module": "./dist/index.mjs",
+  "main": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
   "exports": {
     ".": {
-      "import": {
-        "types": "./dist/index.d.ts",
-        "default": "./dist/index.mjs"
-      },
-      "require": {
-        "types": "./dist/index.d.ts",
-        "default": "./dist/index.cjs"
-      },
+      "types": "./dist/index.d.ts",
       "default": "./dist/index.mjs"
     }
   },
   "files": [
-    "dist",
-    "index.html"
+    "dist/index.mjs",
+    "dist/index.d.ts"
   ],
   "scripts": {
     "extract": "bun run scripts/extract-frames.ts",

@@ -8,7 +8,6 @@ const common: Partial<BuildConfig> = {
   outdir,
   minify: true,
   target: 'browser',
-  sourcemap: 'external',
 };
 
 console.log('Building ESM...');
@@ -18,14 +17,7 @@ await build({
   naming: 'index.mjs',
 } as BuildConfig);
 
-console.log('Building CJS...');
-await build({
-  ...common,
-  format: 'cjs',
-  naming: 'index.cjs',
-} as BuildConfig);
-
-console.log('Building IIFE...');
+console.log('Building IIFE (demo)...');
 await build({
   ...common,
   format: 'iife',
