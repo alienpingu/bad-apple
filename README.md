@@ -8,15 +8,7 @@ Zero runtime image loading. No canvas. No flashing. Just 6,572 pre-computed fram
 
 ## Demo
 
-<video src="./assets/demo.mov" 
-width="640" 
-preload="metadata" 
-autoplay 
-muted 
-loop 
-playsinline>
-  Il tuo browser non supporta il tag video.
-</video>
+![Demo](./assets/demo.gif)
 
 ---
 
